@@ -50,7 +50,6 @@ module.exports = {
       spacing: {
         psmall: "2px",
         15: "15px",
-        14: "14px",
         20: "20px",
         30: "30px",
         530: "530px",

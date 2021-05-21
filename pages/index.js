@@ -7,8 +7,8 @@ export default function Home() {
       <Nav />
       <main className="">
         <div className="bg-lightblue">
-          <section className="container flex flex-col justify-center text-left items-center m-auto py-8 tablet:py-100 px-0 mobile:px-4 content relative">
-            <div className="text-left tablet:text-center">
+          <section className="container flex flex-col justify-center text-left items-center m-auto py-8 tablet:py-100  mobile:px-6 content relative">
+            <div className="text-left tablet:text-center w-full">
               <div className="w-180 h-285 absolute right-70 top-70 hidden desktop:block">
                 <RightQuestionMark />
               </div>
@@ -50,17 +50,17 @@ export default function Home() {
           </section>
         </div>
 
-        <section className="flex justify-center items-center flex-col m-auto container tablet:px-40">
-          <h2 className="pt-16 text-3xl tablet:text-4xl text-default font-bold">
+        <section className="flex justify-center items-center flex-col m-auto container px-20 tablet:px-40">
+          <h2 className="pt-16 text-2xl  tablet:text-4xl text-default font-bold">
             Get started
           </h2>
           <div className="flex justify-between mobile:flex-col tablet:flex-row pt-20 w-full">
             <div className="flex items-center">
-              <figure className="tablet:pr-64">
+              <figure className="mr-6 tablet:mr-0 tablet:pr-64">
                 <div className="w-14 h-14 bg-gray-100 rounded-full" />
               </figure>
               <div>
-                <h3 className="text-2xl font-bold text-black-600 pb-8">
+                <h3 className="text-2xl font-bold text-black-600 pb-4 tablet:pb-8">
                   Supplementss
                 </h3>
 
@@ -73,11 +73,11 @@ export default function Home() {
             </div>
 
             <div className="flex justify-between items-center">
-              <figure className="tablet:pr-64">
+              <figure className="mr-6 tablet:mr-0 tablet:pr-64">
                 <div className="w-14 h-14 bg-gray-100 rounded-full" />
               </figure>
               <div className="mobile:pt-12 tablet:pt-0">
-                <h3 className="text-2xl font-bold text-black-600 pb-8">
+                <h3 className="text-2xl font-bold text-black-600 pb-4 tablet:pb-8">
                   Supplements
                 </h3>
                 <p className="text-base text-gray-300 laptop:w-3/6">
@@ -91,11 +91,11 @@ export default function Home() {
 
           <div className="flex justify-between pt-16 mobile:flex-col tablet:flex-row w-full">
             <div className="flex justify-between items-center">
-              <figure className="tablet:pr-64">
+              <figure className="mr-6 tablet:mr-0 tablet:pr-64">
                 <div className="w-14 h-14 bg-gray-100 rounded-full" />
               </figure>
               <div>
-                <h3 className="text-2xl font-bold text-black-600 pb-8">
+                <h3 className="text-2xl font-bold text-black-600 pb-4 tablet:pb-8">
                   Supplements
                 </h3>
                 <p className="text-base text-gray-300 laptop:w-3/6">
@@ -107,11 +107,11 @@ export default function Home() {
             </div>
 
             <div className="flex justify-between items-center">
-              <figure className="tablet:pr-64">
+              <figure className="mr-6 tablet:mr-0 tablet:pr-64">
                 <div className="w-14 h-14 bg-gray-100 rounded-full" />
               </figure>
               <div className="mobile:pt-12 tablet:pt-0">
-                <h3 className="text-2xl font-bold text-black-600 pb-8">
+                <h3 className="text-2xl font-bold text-black-600 pb-4 tablet:pb-8">
                   Supplements
                 </h3>
                 <p className="text-base text-gray-300 laptop:w-3/6">
@@ -125,17 +125,17 @@ export default function Home() {
         </section>
 
         {/* Sell on SplitChek */}
-        <section className="flex justify-center items-center flex-col m-auto container tablet:px-40 pt-8">
-          <h2 className="pt-16 text-3xl tablet:text-4xl text-default font-bold">
+        <section className="flex justify-center items-center flex-col m-auto container px-20 tablet:px-40 pt-8">
+          <h2 className="pt-16 text-2xl tablet:text-4xl text-default font-bold">
             Sell on SplitChek
           </h2>
           <div className="flex justify-between mobile:flex-col tablet:flex-row pt-20 w-full">
             <div className="flex items-center">
-              <figure className="tablet:pr-64">
+              <figure className="mr-6 tablet:mr-0 tablet:pr-64">
                 <div className="w-14 h-14 bg-gray-100 rounded-full" />
               </figure>
               <div>
-                <h3 className="text-2xl font-bold text-black-600 pb-8">
+                <h3 className="text-2xl font-bold text-black-600 pb-4 tablet:pb-8">
                   Supplementss
                 </h3>
 
@@ -148,11 +148,11 @@ export default function Home() {
             </div>
 
             <div className="flex justify-between items-center">
-              <figure className="tablet:pr-64">
+              <figure className="mr-6 tablet:mr-0 tablet:pr-64">
                 <div className="w-14 h-14 bg-gray-100 rounded-full" />
               </figure>
               <div className="mobile:pt-12 tablet:pt-0">
-                <h3 className="text-2xl font-bold text-black-600 pb-8">
+                <h3 className="text-2xl font-bold text-black-600 pb-4 tablet:pb-8">
                   Supplements
                 </h3>
                 <p className="text-base text-gray-300 laptop:w-3/6">
@@ -166,11 +166,11 @@ export default function Home() {
 
           <div className="flex justify-between pt-16 mobile:flex-col tablet:flex-row w-full">
             <div className="flex justify-between items-center">
-              <figure className="tablet:pr-64">
+              <figure className="mr-6 tablet:mr-0 tablet:pr-64">
                 <div className="w-14 h-14 bg-gray-100 rounded-full" />
               </figure>
               <div>
-                <h3 className="text-2xl font-bold text-black-600 pb-8">
+                <h3 className="text-2xl font-bold text-black-600 pb-4 tablet:pb-8">
                   Supplements
                 </h3>
                 <p className="text-base text-gray-300 laptop:w-3/6">
@@ -187,17 +187,17 @@ export default function Home() {
 
         {/* Hashtags */}
 
-        <section className="flex justify-center items-center flex-col m-auto container tablet:px-40 pt-8">
-          <h2 className="pt-16 text-3xl tablet:text-4xl text-default font-bold">
+        <section className="flex justify-center items-center flex-col m-auto container px-20 tablet:px-40 pt-8">
+          <h2 className="pt-16 text-2xl tablet:text-4xl text-default font-bold">
             Hashtags
           </h2>
           <div className="flex justify-between mobile:flex-col tablet:flex-row pt-20 w-full">
             <div className="flex items-center">
-              <figure className="tablet:pr-64">
+              <figure className="mr-6 tablet:mr-0 tablet:pr-64">
                 <div className="w-14 h-14 bg-gray-100 rounded-full" />
               </figure>
               <div>
-                <h3 className="text-2xl font-bold text-black-600 pb-8">
+                <h3 className="text-2xl font-bold text-black-600 pb-4 tablet:pb-8">
                   Supplementss
                 </h3>
 
@@ -210,11 +210,11 @@ export default function Home() {
             </div>
 
             <div className="flex justify-between items-center">
-              <figure className="tablet:pr-64">
+              <figure className="mr-6 tablet:mr-0 tablet:pr-64">
                 <div className="w-14 h-14 bg-gray-100 rounded-full" />
               </figure>
               <div className="mobile:pt-12 tablet:pt-0">
-                <h3 className="text-2xl font-bold text-black-600 pb-8">
+                <h3 className="text-2xl font-bold text-black-600 pb-4 tablet:pb-8">
                   Supplements
                 </h3>
                 <p className="text-base text-gray-300 laptop:w-3/6">
@@ -228,11 +228,11 @@ export default function Home() {
 
           <div className="flex justify-between pt-16 mobile:flex-col tablet:flex-row w-full">
             <div className="flex justify-between items-center">
-              <figure className="tablet:pr-64">
+              <figure className="mr-6 tablet:mr-0 tablet:pr-64">
                 <div className="w-14 h-14 bg-gray-100 rounded-full" />
               </figure>
               <div>
-                <h3 className="text-2xl font-bold text-black-600 pb-8">
+                <h3 className="text-2xl font-bold text-black-600 pb-4 tablet:pb-8">
                   Supplements
                 </h3>
                 <p className="text-base text-gray-300 laptop:w-3/6">
@@ -244,11 +244,11 @@ export default function Home() {
             </div>
 
             <div className="flex justify-between items-center">
-              <figure className="tablet:pr-64">
+              <figure className="mr-6 tablet:mr-0 tablet:pr-64">
                 <div className="w-14 h-14 bg-gray-100 rounded-full" />
               </figure>
               <div className="mobile:pt-12 tablet:pt-0">
-                <h3 className="text-2xl font-bold text-black-600 pb-8">
+                <h3 className="text-2xl font-bold text-black-600 pb-4 tablet:pb-8">
                   Supplements
                 </h3>
                 <p className="text-base text-gray-300 laptop:w-3/6">
@@ -261,7 +261,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex justify-center items-center flex-col text-center m-auto px-4 pt-12 pb-12">
+        <section className="flex justify-center items-center flex-col text-center m-auto px-20 pt-12 pb-12">
           <h5 className="pt-16 text-2xl tablet:text-4xl text-default font-bold">
             Have questions left?
           </h5>

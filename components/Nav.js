@@ -20,7 +20,7 @@ export default function Example() {
           <Popover>
             {({ open }) => (
               <>
-                <div className="px-30 desktop:px-0">
+                <div className="px-20 desktop:px-0">
                   <nav
                     className="flex items-center justify-between sm:h-10"
                     aria-label="Global"
@@ -29,7 +29,7 @@ export default function Example() {
                       <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                         <div className="flex items-center justify-between w-full md:w-auto">
                           <div className="mr-1.5 flex items-center lg:hidden">
-                            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                            <Popover.Button className="bg-white rounded-md inline-flex items-center justify-center text-gray-400 hover:text-gray-500  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                               <span className="sr-only">Open main menu</span>
                               <MenuIcon className="h-6 w-6" aria-hidden="true" />
                             </Popover.Button>
@@ -38,7 +38,7 @@ export default function Example() {
                             <a className="flex items-center">
                               <span className="sr-only">Workflow</span>
                               <img
-                                className="h-6 desktop:h-8 desktop:w-auto"
+                                className="h-4 desktop:h-8 desktop:w-auto"
                                 src="/splitcheck-w-logo.png"
                               />
                               <span className="text-lg text-default font-bold ml-15 hidden lg:block">Help center</span>
@@ -60,7 +60,7 @@ export default function Example() {
                     </div>
 
                     <div>
-                      <button className="text-14 tablet:text-base text-default font-bold w-120 h-30 tablet:w-160 tablet:h-40 rounded-md border-2 border-default bg-white hover:bg-default hover:text-white transition duration-500 ease-out">
+                      <button className="text-sm tablet:text-base text-default font-bold w-120 h-30 tablet:w-160 tablet:h-40 rounded-md border-2 border-default bg-white hover:bg-default hover:text-white transition duration-500 ease-out">
                         To SplitCheck
                       </button>
                     </div>
