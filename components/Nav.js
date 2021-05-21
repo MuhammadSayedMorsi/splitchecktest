@@ -5,7 +5,7 @@ import Link from "next/link"
 import { Fragment } from 'react'
 
 const navigation = [
-  { name: 'Get Started', href: '/setStarted' },
+  { name: 'help center', href: '/' },
   { name: 'Sell', href: '/sell' },
   { name: 'Admin help', href: '/adminHelp' },
   { name: 'Manage Store', href: 'mangeStore' },
