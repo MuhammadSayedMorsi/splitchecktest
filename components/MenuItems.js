@@ -27,12 +27,12 @@ export default function Links() {
   };
 
   const fixedMenuLinks = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 100 && window.scrollY < 2900) {
       setMenuItem(true);
     } else {
       setMenuItem(false);
     }
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
   };
 
   // window.addEventListener("scroll", fixedMenuLinks);
@@ -49,7 +49,9 @@ export default function Links() {
       <style jsx>
         {`
           div {
-            position: fixed;
+            position: absolute;
+            top: 0;
+            width: 150px;
             transition: all 0.4s ease-in-out;
           }
         `}

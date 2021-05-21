@@ -6,6 +6,10 @@
   @apply pl-2 border-l-4 border-yellow-200 text-yellow-200 transition duration-500 ease-in-out;
 }
 
+/* .menufixed {
+  @apply fixed top-0 transition duration-500 ease-in-out;
+} */
+
 .menufixed {
-  @apply top-0 transition duration-500 ease-in-out;
+  position: fixed !important;
 }

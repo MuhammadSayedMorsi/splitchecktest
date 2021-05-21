@@ -7,7 +7,7 @@ import { Fragment } from 'react'
 const navigation = [
   { name: 'Get Started', href: '/setStarted' },
   { name: 'Sell', href: '/sell' },
-  { name: 'Hashtags', href: 'hashtags' },
+  { name: 'Admin help', href: '/adminHelp' },
   { name: 'Manage Store', href: 'mangeStore' },
   { name: 'B2B', href: 'b2b' },
 ]

@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import LeftQuestionMark from "../components/LeftQuestionMark";
 import Nav from "../components/Nav";
 import RightQuestionMark from "../components/RightQuestionMark";
@@ -300,6 +301,7 @@ export default function Home() {
           </style>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

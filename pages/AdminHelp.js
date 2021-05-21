@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Footer from "../components/Footer";
 import MenuItem from "../components/MenuItems";
 import NavBar from "../components/Nav";
 export default function AdminHelp() {
@@ -41,7 +42,7 @@ export default function AdminHelp() {
           </div>
         </div>
 
-        <div className="flex w-full laptop:w-1/7 m-auto px-4 laptop:px-0">
+        <div className="flex w-full laptop:w-1/7 m-auto px-4 laptop:px-0 relative">
           <div className="hidden laptop:block pl-4">
             <MenuItem />
           </div>
@@ -359,6 +360,7 @@ export default function AdminHelp() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
