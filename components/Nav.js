@@ -110,9 +110,9 @@ export default function Example() {
                           </a>
                         ))}
                       </div>
-                      <div>
-                        <button className="text-base text-red-200 font-bold w-full tablet:w-140 h-48 rounded-md border-2 border-red-200 bg-white hover:bg-red-200 hover:text-white transition duration-500 ease-out">
-                          To Splitcheck
+                      <div className="mt-4 mb-4">
+                        <button className="text-sm tablet:text-base text-default font-bold w-120 h-30 tablet:w-160 tablet:h-40 rounded-md border-2 border-default bg-white hover:bg-default hover:text-white transition duration-500 ease-out">
+                          To SplitCheck
                       </button>
                       </div>
                     </div>
